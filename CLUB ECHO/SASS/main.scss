@@ -1,0 +1,153 @@
+@import './variable';
+
+// NAVBAR
+.big-banner{
+   background: url('../IMAGES/HERO\ IMG.jpg') no-repeat center center/cover;
+   height: auto;
+}
+
+.navbar{
+ 
+   & a{
+      color: #fff;
+   }
+
+   & a:hover{
+      color: rgb(204, 204, 204);
+   }
+}
+
+.nav-link{
+   font-family: $secondary-font;
+
+}
+
+.navbar-brand{
+   font-family: $lobster;
+   font-size: 40px;
+}
+
+.hero-contents{
+   h1{
+      font-family: $alternate-font;
+      font-weight: 600;
+   }
+
+   .custom{
+      color: $primary;
+   }
+
+   // BUTTONS
+
+   .first-btn{
+      background: #fff;
+      border: none;
+
+
+      &:hover{
+         background: $primary;
+         color: #fff;
+      }
+   }
+
+   .second-btn{
+      background: $primary;
+      color: #fff;
+      border: none;
+      display: inline-block;
+
+      &:hover{
+         background: #fff;
+         color: #333;
+      }
+   }
+}
+
+.navbar-toggler{
+   background: #fff;
+}
+
+.bottom-contents{
+   line-height: 0.5;
+   background: white;
+   display: inline-block;
+   color: #333;
+   
+   .location-info{
+      color: $primary;
+      font-family: $secondary-font;
+      font-size: 25px;
+   }
+}
+
+
+// BORDER-BOTTOM CLASS
+.border-bottom{
+   background: #fff;
+   height: 2px;
+   width: 30%;
+}
+
+// EVENTS
+#events{
+   background: #fff;
+
+   & p{
+      font-family: $primary-font;
+      font-size: 35px;
+   }
+
+   .border-bottom{
+      background: $primary;
+   }
+
+   .event-info{
+      color: $primary;
+   }
+}
+
+// FOOD
+#food{
+   background: $primary;
+
+   .border-bottom{
+      background: #fff;
+   }
+}
+
+
+
+// GALLERY
+#gallery{
+   .border-bottom{
+      background: $primary;
+   }
+}
+
+// CONTACT
+#contact{
+   label{
+      font-size: 25px;
+      font-family: $primary-font;
+   }
+   
+   & .btn{
+      color: black;
+      border: 1px solid black;
+
+      &:hover{
+         background:$primary;
+      color: #FFF;
+      border: 1px solid #fff;
+      }
+   }
+}
+
+// FOOTER
+#footer{
+   background: $primary;
+}
+
+a{
+  text-decoration: none;
+}

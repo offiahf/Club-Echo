@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,300;1,400;1,700&family=Orbitron:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,300;1,400;1,700&family=Lobster&family=Orbitron:wght@400;500;600&display=swap");
+.big-banner {
+  background: url("../IMAGES/HERO IMG.jpg") no-repeat center center/cover;
+  height: auto;
+}
+
+.navbar a {
+  color: #fff;
+}
+.navbar a:hover {
+  color: rgb(204, 204, 204);
+}
+
+.nav-link {
+  font-family: "Playfair display";
+}
+
+.navbar-brand {
+  font-family: "Lobster";
+  font-size: 40px;
+}
+
+.hero-contents h1 {
+  font-family: "Lato";
+  font-weight: 600;
+}
+.hero-contents .custom {
+  color: #DB443D;
+}
+.hero-contents .first-btn {
+  background: #fff;
+  border: none;
+}
+.hero-contents .first-btn:hover {
+  background: #DB443D;
+  color: #fff;
+}
+.hero-contents .second-btn {
+  background: #DB443D;
+  color: #fff;
+  border: none;
+  display: inline-block;
+}
+.hero-contents .second-btn:hover {
+  background: #fff;
+  color: #333;
+}
+
+.navbar-toggler {
+  background: #fff;
+}
+
+.bottom-contents {
+  line-height: 0.5;
+  background: white;
+  display: inline-block;
+  color: #333;
+}
+.bottom-contents .location-info {
+  color: #DB443D;
+  font-family: "Playfair display";
+  font-size: 25px;
+}
+
+.border-bottom {
+  background: #fff;
+  height: 2px;
+  width: 30%;
+}
+
+#events {
+  background: #fff;
+}
+#events p {
+  font-family: "Orbitron";
+  font-size: 35px;
+}
+#events .border-bottom {
+  background: #DB443D;
+}
+#events .event-info {
+  color: #DB443D;
+}
+
+#food {
+  background: #DB443D;
+}
+#food .border-bottom {
+  background: #fff;
+}
+
+#gallery .border-bottom {
+  background: #DB443D;
+}
+
+#contact label {
+  font-size: 25px;
+  font-family: "Orbitron";
+}
+#contact .btn {
+  color: black;
+  border: 1px solid black;
+}
+#contact .btn:hover {
+  background: #DB443D;
+  color: #FFF;
+  border: 1px solid #fff;
+}
+
+#footer {
+  background: #DB443D;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
